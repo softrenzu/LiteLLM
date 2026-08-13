@@ -1,0 +1,49 @@
+# Replace model identifiers/costs with the models you actually operate.
+models:
+  - name: fast-cloud
+    litellm_model: openai/gpt-5.6-luna
+    quality: 0.72
+    input_cost_per_million: 0.40
+    output_cost_per_million: 1.60
+    expected_latency_ms: 650
+    regions: [global, jp]
+    data_classes: [public, internal]
+    capabilities: [chat, tools]
+
+  - name: balanced-cloud
+    litellm_model: openai/gpt-5.6-terra
+    quality: 0.86
+    input_cost_per_million: 1.20
+    output_cost_per_million: 4.80
+    expected_latency_ms: 1200
+    regions: [global, jp]
+    data_classes: [public, internal, confidential]
+    capabilities: [chat, tools, vision, reasoning]
+
+  - name: private-nim
+    litellm_model: nvidia_nim/meta/llama-3.3-70b-instruct
+    quality: 0.78
+    input_cost_per_million: 0.30
+    output_cost_per_million: 0.60
+    expected_latency_ms: 900
+    regions: [jp]
+    data_classes: [public, internal, confidential, restricted]
+    capabilities: [chat, tools]
+    on_prem: true
+
+weights:
+  quality: 0.40
+  cost: 0.18
+  latency: 0.22
+  reliability: 0.15
+  complexity_fit: 0.05
+
+exploration_rate: 0.03
+quality_decay: 0.97
+ewma_alpha: 0.20
+circuit_breaker_failures: 3
+circuit_breaker_cooldown_s: 60
+shadow_rate: 0.02
+max_delegation_depth: 6
+default_agent_budget_usd: 10.0
+privacy_auto_detect: true
