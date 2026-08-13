@@ -3,12 +3,13 @@ requires = ["setuptools>=75"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rooom-litellm-plus"
-version = "0.2.0"
-description = "OpenAI-compatible LiteLLM extension with multi-objective routing, privacy policy, agent budgets, shadow evaluation and online feedback."
+name = "rooom-gateway"
+version = "0.3.0"
+description = "Enterprise LLM gateway with policy, privacy, reliability, budgets, and provider integration"
 readme = "README.md"
 requires-python = ">=3.11"
-license = {text = "MIT"}
+license = {file = "LICENSE"}
+authors = [{name = "ROOOMTECH"}]
 dependencies = [
   "fastapi>=0.115",
   "uvicorn[standard]>=0.30",
