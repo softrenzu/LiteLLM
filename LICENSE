@@ -1,21 +1,17 @@
-MIT License
+ROOOMTECH Dual License Notice
+Applies to RooomGateway version 0.3.0 and later
 
-Copyright (c) 2026 Rooomtech
+Copyright 2026 ROOOMTECH
+Required Notice: Copyright 2026 ROOOMTECH
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Noncommercial option: PolyForm Noncommercial License 1.0.0
+https://polyformproject.org/licenses/noncommercial/1.0.0
+The terms at that URL are incorporated by reference.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Commercial option: a separate paid ROOOMTECH Commercial Software License.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Business or commercial-purpose use and other uses not permitted by PolyForm Noncommercial require a paid commercial license from ROOOMTECH. A standard commercial software license agreement is available. Paid maintenance, support, implementation, integration, upgrades, security support, SLA options, private builds, and custom development are available.
+
+Contact: support@rooomtech.com
+
+Earlier releases remain under their published license terms. The upstream LiteLLM package and third-party software remain under their respective licenses.
