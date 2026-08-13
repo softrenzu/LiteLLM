@@ -1,5 +1,7 @@
 # Rooom LiteLLM+
 
+Version: `0.2.0`
+
 A small OpenAI-compatible routing layer built on top of upstream LiteLLM. It keeps LiteLLM's provider abstraction while adding enterprise routing behavior that is useful when cost alone is not enough.
 
 > This repository is not the official BerriAI/LiteLLM project and is not affiliated with BerriAI. It uses `litellm` as a runtime dependency rather than copying upstream source code.
@@ -127,6 +129,12 @@ Feature comparison was based on the upstream LiteLLM project and its Adaptive Ro
 - https://github.com/BerriAI/litellm
 - https://docs.litellm.ai/
 - https://github.com/BerriAI/litellm/blob/litellm_internal_staging/litellm/router_strategy/adaptive_router/README.md
+
+## Enterprise support
+
+ROOOMTECH offers paid maintenance, technical support, implementation and integration assistance, upgrades, security support, SLA options, private builds, and custom development for business and production deployments. A commercial software license agreement is available for organizations that need contractual terms.
+
+Contact: `tasuku.yoshioka@rooomtech.com`
 
 ## License
 
