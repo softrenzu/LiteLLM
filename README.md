@@ -134,7 +134,7 @@ Feature comparison was based on the upstream LiteLLM project and its Adaptive Ro
 
 ROOOMTECH offers paid maintenance, technical support, implementation and integration assistance, upgrades, security support, SLA options, private builds, and custom development for business and production deployments. A commercial software license agreement is available for organizations that need contractual terms.
 
-Contact: `tasuku.yoshioka@rooomtech.com`
+Contact: `support@rooomtech.com`
 
 ## License
 
